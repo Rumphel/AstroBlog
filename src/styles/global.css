@@ -32,14 +32,84 @@ ul{
     color:burlywood;
 }
 
-a{
+.asec{
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
-a:hover{
+.asec:hover{
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ater{
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.ater:hover{
+    color: rgb(0, 128, 109);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+  background-color: rgba(255, 0, 0, 0.441);
+  border-radius: 20px;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.nav-links {
+  width: 100%;
+  margin: 0;
+  display: none;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+}
+
+.nav-links a:hover, .nav-links a:focus {
     color: black;
     background: rgb(250, 250, 250);
     font-weight: bold;
+    text-decoration: none;
+}
+
+:has(.menu[aria-expanded="true"]) .nav-links {
+  display: unset;
+}
+
+@media screen and (min-width: 636px) {
+  .nav-links {
+    margin-left: 5em;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .menu {
+    display: none;
+  }
 }
