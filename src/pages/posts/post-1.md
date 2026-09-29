@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mi primer post en el blog'
-pubDate: 29-09-2026
-description: 'Este es el primer post.'
-author: Andres Soto
+author: 'Andres Soto'
+pubDate: 2026-09-29
+description: "Este es el primer post."
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["astro", "blogging", "learning in public", "chupapi"]
 ---
 # My First Blog Post
 

@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-pubDate: 29-09-2026
-title: Mi segundo post
-author: Andres Soto
+title: 'Mi segundo post'
+author: 'Andres Soto'
+pubDate: 2026-09-29
 description: "Despues de estar aprendiendo Astro, me dio mucha flojera y no hice reporte de practica."
 image:
     url: "https://docs.astro.build/assets/arc.webp"
