@@ -1,8 +1,8 @@
 ---
-title: 'My First Blog Post'
+title: 'Mi primer post en el blog'
 pubDate: 29-09-2026
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+description: 'Este es el primer post.'
+author: 'Estudiante aprendiendo Astro'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
