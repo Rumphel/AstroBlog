@@ -1,40 +1,17 @@
 ---
 import '../styles/global.css';
-import Footer from '../components/Footer.astro'
-import Header from '../components/Header.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
 //import Navigation from '../components/Navigation.astro'
 
-const pageTitle = "Learning Blog";
+const pageTitle = "Blog de aprendizaje";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-        <style>
-            h1 {
-            color: rgb(226, 0, 0);
-            font-size: 4rem;
-            }
-        </style>
-	</head>
-	<body>
-        <Header/>
-		<h1>{pageTitle}</h1>
-        <h2>Mi blog de aprendizaje de Astro</h2>
+<BaseLayout pageTitle={pageTitle}>
+    <h2>Mi blog de aprendizaje de Astro</h2>
         <p>Aquí voy a publicar el progreso que llevo en Astro y algunos post pedorros.</p>
         <ul>
             <li><a href="/posts/post-1/" class="ater">Post 1</a></li>
             <li><a href="/posts/post-2/" class="ater">Post 2</a></li>
             <li><a href="/posts/post-3/" class="ater">Post 3</a></li>
         </ul>
-        <div>
-            <Footer/>
-        </div>
-        <script>import "../scripts/menu.js";</script>
-	</body>
-</html>
+</BaseLayout>
